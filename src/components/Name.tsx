@@ -28,7 +28,11 @@ const Name: React.FC = () => {
             scrolled && "opacity-0 relative"
           )}
         >
-          <img src="/sprite.gif" className="h-full" />
+          <img
+            src="/sprite.webp"
+            className="w-[154.27px] h-[360px]"
+            alt="figure of me in animated gif"
+          />
         </div>
         <div className={twMerge("ml-8 transition-all relative")}>
           <p
@@ -66,33 +70,40 @@ const Name: React.FC = () => {
             programming world.
           </p>
           <div className="mt-12">
-            <ul className="text-3xl flex">
-              <a
-                href="https://linkedin.com/in/prmzk"
-                target="_blank"
-                rel="noopener norefferer"
-              >
-                <li className="text-gray hover:text-blue cursor-pointer transition-colors">
+            <ul className="text-3xl flex gap-6">
+              <li className="text-gray hover:text-blue cursor-pointer transition-colors">
+                <a
+                  href="https://linkedin.com/in/prmzk"
+                  target="_blank"
+                  rel="noopener norefferer"
+                  aria-label="LinkedIn"
+                >
                   <FaLinkedinIn />
-                </li>
-              </a>
-              <li className="ml-6 text-gray hover:text-blue cursor-pointer transition-colors ">
+                </a>
+              </li>
+              <li className=" text-gray hover:text-blue cursor-pointer transition-colors ">
                 <a
                   href="https://github.com/prmzk"
                   target="_blank"
                   rel="noopener norefferer"
+                  aria-label="GitHub"
                 >
                   <FaGithub />
                 </a>
               </li>
-              <li className="ml-8 text-gray  hover:text-blue cursor-pointer transition-colors">
-                <a href="mailto:adam.primarizki@gmail.com">
+              <li className=" text-gray  hover:text-blue cursor-pointer transition-colors">
+                <a href="mailto:adam.primarizki@gmail.com" aria-label="EMail">
                   <FaEnvelope />
                 </a>
               </li>
               <li>
-                <a href="/resume.pdf" target="_blank" rel="noopener norefferer">
-                  <p className="text-sm rounded-md py-1 px-2 bg-gray font-bold tracking-tighter ml-8 hover:bg-blue cursor-pointer transition-all">
+                <a
+                  href="/resume.pdf"
+                  target="_blank"
+                  rel="noopener norefferer"
+                  aria-label="Open my resume"
+                >
+                  <p className="text-sm rounded-md py-1 px-2 bg-gray font-bold tracking-tighter hover:bg-blue cursor-pointer transition-all">
                     Resume
                   </p>
                 </a>
@@ -120,33 +131,40 @@ const Name: React.FC = () => {
             programming world.
           </p>
           <div className="mt-12">
-            <ul className="text-3xl flex">
-              <a
-                href="https://linkedin.com/in/prmzk"
-                target="_blank"
-                rel="noopener norefferer"
-              >
-                <li className="text-gray hover:text-blue cursor-pointer transition-colors">
+            <ul className="text-3xl flex gap-6">
+              <li className="text-gray hover:text-blue cursor-pointer transition-colors">
+                <a
+                  href="https://linkedin.com/in/prmzk"
+                  target="_blank"
+                  rel="noopener norefferer"
+                  aria-label="LinkedIn"
+                >
                   <FaLinkedinIn />
-                </li>
-              </a>
-              <li className="ml-6 text-gray hover:text-blue cursor-pointer transition-colors ">
+                </a>
+              </li>
+              <li className="text-gray hover:text-blue cursor-pointer transition-colors ">
                 <a
                   href="https://github.com/prmzk"
                   target="_blank"
                   rel="noopener norefferer"
+                  aria-label="GitHub"
                 >
                   <FaGithub />
                 </a>
               </li>
-              <li className="ml-8 text-gray  hover:text-blue cursor-pointer transition-colors">
-                <a href="mailto:adam.primarizki@gmail.com">
+              <li className="text-gray  hover:text-blue cursor-pointer transition-colors">
+                <a href="mailto:adam.primarizki@gmail.com" aria-label="email">
                   <FaEnvelope />
                 </a>
               </li>
               <li>
-                <a href="/resume.pdf" target="_blank" rel="noopener norefferer">
-                  <p className="text-sm rounded-md py-1 px-2 bg-gray font-bold tracking-tighter ml-8 hover:bg-blue cursor-pointer transition-all">
+                <a
+                  href="/resume.pdf"
+                  target="_blank"
+                  rel="noopener norefferer"
+                  aria-label="resume"
+                >
+                  <p className="text-sm rounded-md py-1 px-2 bg-gray font-bold tracking-tighter hover:bg-blue cursor-pointer transition-all">
                     Resume
                   </p>
                 </a>
@@ -155,7 +173,11 @@ const Name: React.FC = () => {
           </div>
         </div>
         <div className="h-[280px] flex-shrink-0 transition-all opacity-100 ml-auto">
-          <img src="/sprite.gif" className="h-full" />
+          <img
+            src="/sprite.webp"
+            className="w-[120px] h-[280px]"
+            alt="figure of me in animated gif"
+          />
         </div>
       </div>
     </Container>
